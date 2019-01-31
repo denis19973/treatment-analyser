@@ -5,13 +5,13 @@ import indicoio
 PROCESS_TWEETS_PER_CANDIDATE = 3000
 PROCESS_TEXT_PER_REQUEST = 100
 
-indicoio.config.api_key = '0f9c08f8865c31e46cc723e19f43e6dc'
+indicoio.config.api_key = ''
 
-CONSUMER_KEY = 'x7z05c00lhUFx0ew1L02LPeWk'
-CONSUMER_SECRET = '05kt5WOfQUe0TKC2BlTpLV0uvBnqHKqYTZmvbYfhtBqXStppiS'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 
-ACCESS_TOKEN = '1087171855780179968-SVa21xDSjxF7j6vjHwewgCvzdC8fEy'
-ACCESS_TOKEN_SECRET = '1HkISUe4L2HMiW3BCJdWRcqWDrXcXIezpPzAsKRwIUee8'
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
 
 def search_tweets(query):
 	return tweepy.Cursor(api.search,
